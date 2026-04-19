@@ -1,0 +1,15 @@
+# Preview/test files
+preview_*.png
+preview_*.pdf
+test_*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Node (in case someone adds build tooling later)
+node_modules/

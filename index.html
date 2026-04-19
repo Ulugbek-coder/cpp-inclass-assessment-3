@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming 1 with C++ — 3rd In-Class Assessment — NPUU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <section id="welcome">
+        <!-- NPUU Logo Block -->
+        <div class="logo-block">
+          <div class="logo-shield">
+            <svg
+              viewBox="0 0 42 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 2 L37 7 L37 22 C37 31 30 38 21 40 C12 38 5 31 5 22 L5 7 Z"
+                stroke="white"
+                stroke-width="2"
+                fill="rgba(255,255,255,0.08)"
+              />
+              <path
+                d="M14 16 L21 12 L28 16 L21 20 Z"
+                fill="white"
+                opacity="0.9"
+              />
+              <path
+                d="M14 22 L21 18 L28 22 L21 26 Z"
+                fill="white"
+                opacity="0.6"
+              />
+              <path
+                d="M14 28 L21 24 L28 28 L21 32 Z"
+                fill="white"
+                opacity="0.35"
+              />
+            </svg>
+          </div>
+          <div class="logo-text">
+            <div class="ln1">National Pedagogical</div>
+            <div class="ln2">University of Uzbekistan</div>
+          </div>
+        </div>
+
+        <div class="eyebrow">NPUU · School of Exact Sciences · Spring 2026</div>
+        <h1>Programming 1 with C++<br /><em>3rd In-Class Assessment</em></h1>
+
+        <p class="lead">
+          A timed in-class assessment covering data types, operators, control
+          flow, loops, functions, arrays and strings.
+          <span class="uz"
+            >Ma'lumot turlari, operatorlar, boshqaruv oqimi, sikllar,
+            funksiyalar, massivlar va satrlarni qamrab oluvchi vaqtli sinf ichi
+            baholash.</span
+          >
+        </p>
+
+        <div class="meta-grid">
+          <div class="meta-item m1">
+            <div class="k">Multiple Choice<br />Testlar</div>
+            <div class="v">30</div>
+          </div>
+          <div class="meta-item m2">
+            <div class="k">Coding Problems<br />Kodlash</div>
+            <div class="v">2</div>
+          </div>
+          <div class="meta-item m3">
+            <div class="k">Minutes<br />Daqiqa</div>
+            <div class="v">80</div>
+          </div>
+        </div>
+
+        <div class="rules">
+          <strong>Before you begin / Boshlashdan oldin:</strong>
+          <ul>
+            <li>
+              <b>Total:</b> 30 multiple-choice (60 pts) + 2 coding problems (40
+              pts) = 100 points.
+              <span class="uz"
+                >Jami: 30 ta test (60 ball) + 2 ta kodlash masalasi (40 ball) =
+                100 ball.</span
+              >
+            </li>
+            <li>
+              You have <b>80 minutes</b>. The timer appears top-right and
+              auto-submits at 00:00.
+              <span class="uz"
+                >Sizga <b>80 daqiqa</b> vaqt beriladi. Taymer yuqori-o'ngda
+                ko'rinadi va 00:00 da avtomatik yuboriladi.</span
+              >
+            </li>
+            <li>
+              Each multiple-choice question has exactly one correct answer.
+              <span class="uz"
+                >Har bir test savolida aniq bitta to'g'ri javob bor.</span
+              >
+            </li>
+            <li class="rule-critical">
+              Do <b>NOT</b> switch browser tabs or open other windows. Tab
+              switches are logged and flagged.
+              <span class="uz"
+                >Brauzer yorliqlarini almashtirmang yoki boshqa oynalarni
+                ochmang. Almashtirishlar qayd etiladi.</span
+              >
+            </li>
+            <li class="rule-critical">
+              Copy-paste and right-click are <b>disabled</b>. Write your code
+              yourself.
+              <span class="uz"
+                >Nusxa ko'chirish va o'ng-tugmacha o'chirilgan. Kodingizni
+                o'zingiz yozing.</span
+              >
+            </li>
+            <li>
+              After you click Submit, a PDF will be downloaded automatically.
+              Upload it via the Google Form shown on screen.
+              <span class="uz"
+                >Yuborish tugmasini bosgandan so'ng PDF avtomatik yuklab
+                olinadi. Ekrandagi Google Form orqali yuboring.</span
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Version Selection -->
+        <div class="version-section">
+          <h3>
+            Select Your Exam Version
+            <span class="uz">Imtihon Versiyangizni Tanlang</span>
+          </h3>
+          <div class="version-grid">
+            <div class="version-card" data-version="A">
+              <div class="v-label">Version</div>
+              <div class="v-letter">A</div>
+            </div>
+            <div class="version-card" data-version="B">
+              <div class="v-label">Version</div>
+              <div class="v-letter">B</div>
+            </div>
+            <div class="version-card" data-version="C">
+              <div class="v-label">Version</div>
+              <div class="v-letter">C</div>
+            </div>
+            <div class="version-card" data-version="D">
+              <div class="v-label">Version</div>
+              <div class="v-letter">D</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Student Info Form -->
+        <div class="info-form">
+          <h3>
+            Student Information
+            <span class="uz">Talaba Ma'lumoti</span>
+          </h3>
+          <hr />
+
+          <div class="form-row">
+            <label>Group <span class="req">*</span></label>
+            <select id="studentGroup">
+              <option value="">
+                -- Select your group / Guruhingizni tanlang --
+              </option>
+              <option value="FAR1">FAR1</option>
+              <option value="FAR2">FAR2</option>
+              <option value="FM4">FM4</option>
+              <option value="FM5">FM5</option>
+              <option value="FIT5">FIT5</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label>Student ID <span class="req">*</span></label>
+            <input
+              type="text"
+              id="studentId"
+              placeholder="e.g. 230012"
+              maxlength="6"
+              inputmode="numeric"
+              autocomplete="off"
+            />
+            <div class="hint" id="idHint">
+              Student ID must be exactly 6 digits. / Talaba ID aynan 6 raqamdan
+              iborat bo'lishi kerak.
+            </div>
+          </div>
+
+          <div class="form-two">
+            <div class="form-row">
+              <label>First Name <span class="req">*</span></label>
+              <input
+                type="text"
+                id="studentFirstName"
+                placeholder="e.g. Jasurbek"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-row">
+              <label>Last Name <span class="req">*</span></label>
+              <input
+                type="text"
+                id="studentLastName"
+                placeholder="e.g. Mahkamov"
+                autocomplete="off"
+              />
+            </div>
+          </div>
+        </div>
+
+        <button id="startBtn" class="btn" type="button" disabled>
+          Start the Exam &nbsp;→
+        </button>
+      </section>
+    </div>
+
+    <!-- Modal popup -->
+    <div id="modal" class="modal-overlay" role="dialog" aria-modal="true">
+      <div class="modal" id="modal-box">
+        <div class="modal-body">
+          <div class="modal-icon" id="modal-icon">!</div>
+          <h3 id="modal-title">
+            Title
+            <span class="uz" id="modal-title-uz">Sarlavha</span>
+          </h3>
+          <p id="modal-text">Message</p>
+          <div
+            class="progress-info"
+            id="modal-progress"
+            style="display: none"
+          ></div>
+        </div>
+        <div class="modal-footer">
+          <button id="modal-cancel" class="modal-btn secondary" type="button">
+            Cancel
+          </button>
+          <button id="modal-ok" class="modal-btn primary" type="button">
+            OK
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load scripts -->
+    <script src="js/questions/question-bank.js"></script>
+    <script src="js/questions/version-a.js"></script>
+    <script src="js/questions/version-b.js"></script>
+    <script src="js/questions/version-c.js"></script>
+    <script src="js/questions/version-d.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

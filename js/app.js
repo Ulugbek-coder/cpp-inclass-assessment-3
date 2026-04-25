@@ -6,7 +6,7 @@
 // - Starter code: uses value (not placeholder) so it persists
 // =============================================================
 
-const EXAM_DURATION = 80 * 60;
+const EXAM_DURATION = 90 * 60;
 
 let studentInfo = { group: "", id: "", firstName: "", lastName: "" };
 let examVersion = null;
